@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#221910"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/ivAppLogoHeader"
+        android:layout_width="65dp"
+        android:layout_height="60dp"
+        android:contentDescription="Uygulama Logosu"
+        android:src="@drawable/logo_ayicik"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/llTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@id/ivAppLogoHeader"
+        app:layout_constraintStart_toEndOf="@id/ivAppLogoHeader"
+        app:layout_constraintTop_toTopOf="@id/ivAppLogoHeader">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="#f27f0d"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobil"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/scoreContainer"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:background="@drawable/bg_circle_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/ivAppLogoHeader"
+        app:layout_constraintBottom_toBottomOf="@id/ivAppLogoHeader">
+
+        <com.google.android.material.progressindicator.CircularProgressIndicator
+            android:id="@+id/headerScoreProgress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:progress="85"
+            app:indicatorColor="#f27f0d"
+            app:indicatorSize="52dp"
+            app:trackColor="#3a2d20"
+            app:trackThickness="3dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvUserScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="85"
+                android:textColor="#f27f0d"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PTS"
+                android:textColor="#6b7280"
+                android:textSize="8sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/ivStreakHeader"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/ic_fire"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivAppLogoHeader"
+        app:tint="#f27f0d" />
+
+    <TextView
+        android:id="@+id/tvStreakTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="12 Day Streak"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/ivStreakHeader"
+        app:layout_constraintStart_toEndOf="@id/ivStreakHeader"
+        app:layout_constraintTop_toTopOf="@id/ivStreakHeader" />
+
+    <TextView
+        android:id="@+id/tvTodayProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8/10 Today"
+        android:textColor="#cbad90"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif-medium"
+        app:layout_constraintBottom_toBottomOf="@id/tvStreakTitle"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/headerStreakProgress"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="12dp"
+        android:progress="80"
+        android:progressDrawable="@drawable/streak_gradient_progress"
+        app:layout_constraintTop_toBottomOf="@id/ivStreakHeader" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

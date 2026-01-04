@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">LocalBear</string>
+    <string name="logo_desc">App Logo</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="master_english">Master English Today</string>
+    <string name="email_address">Email Address</string>
+    <string name="hello_example">hello@example.com</string>
+    <string name="password">Password</string>
+    <string name="enter_password">Enter your password</string>
+    <string name="sign_in">Sign In</string>
+
+    <string name="explore">Explore</string>
+    <string name="learn">Learn</string>
+    <string name="review">Review</string>
+    <string name="home">Home</string>
+    <string name="saved">Saved</string>
+    <string name="profile">Profile</string>
+    <string name="current_location">Current Location</string>
+    <string name="coffee_shop">Coffee Shop</string>
+</resources>

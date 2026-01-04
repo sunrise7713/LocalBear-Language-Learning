@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardMission"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="24dp"
+    app:cardCornerRadius="24dp"
+    app:cardBackgroundColor="#2f2419">
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="24dp">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentEnd="true"
+        android:alpha="0.1"
+        android:src="@drawable/ic_map" />
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="12dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:background="@drawable/gradient_warm_rounded"
+            android:src="@drawable/ic_location" />
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MISSION"
+        android:textColor="#ec4899"
+        android:layout_marginStart="12dp"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.1" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Where am I?"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" /> <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Cümleyi oku, doğru mekanı seç!"
+    android:textColor="#cbad90"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="24dp" /> <androidx.appcompat.widget.AppCompatButton
+    android:id="@+id/btnStartMission"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:text="BAŞLA"
+    android:textColor="#FFFFFF"
+    android:textStyle="bold"
+    android:background="@drawable/gradient_warm_rounded" /> </LinearLayout>
+</RelativeLayout>
+</androidx.cardview.widget.CardView>

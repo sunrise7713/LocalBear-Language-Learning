@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "631686572330",
+    "project_id": "ingilizcemobil",
+    "storage_bucket": "ingilizcemobil.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631686572330:android:ba71f0cff9d6a52dd61653",
+        "android_client_info": {
+          "package_name": "com.rojdaurper.ingilizcemobil"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEIjMArjNTS7-TAvjy-o8zpEdQdYZbz8w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

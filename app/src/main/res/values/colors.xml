@@ -1,0 +1,15 @@
+<resources>
+    <color name="bg_dark">#221910</color>
+    <color name="surface_dark">#2f2419</color>
+    <color name="primary_orange">#f27f0d</color>
+    <color name="accent_pink">#ec4899</color>
+
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_hint">#6e5845</color>
+    <color name="surface_border">#493622</color>
+
+    <color name="background_dark">#221910</color>
+
+
+
+</resources>
