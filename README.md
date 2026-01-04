@@ -16,8 +16,8 @@ LocalBear, kullanıcıların günlük senaryolara (Coffee Shop, Airport vb.) gö
 ## 📸 Ekran Görüntüleri
 
 ### Ana Ekranlar
-| Ana Sayfa | Kategori Seçimi | Kaydedilenler |
-| :---: | :---: | :---: |
+| Ana Sayfa | Kategori Seçimi |                         Kaydedilenler                         |
+| :---: | :---: |:-------------------------------------------------------------:|
 | <img src="screenshots/anasayfa.png" width="220"> | <img src="screenshots/anasayfa_kategori.png" width="220"> | <img src="screenshots/kaydedilenler_sayfasi.png" width="220"> |
 
 ### Öğrenme ve Oyun Modları
